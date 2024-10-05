@@ -1,17 +1,12 @@
 import { Header } from "@/components/header/Header";
 import'../styles/home.scss'
+import { Experience } from "@/components/experience/Experience";
 
 export default function Home() {
   return (
       <main className="container">
         <Header/>
-        <div className="experience">
-          <h3>Experiência</h3>
-          <p>Na área acadêmica, 3 semestre de Análise e Desenvolvimento de Sistemas (Uninassau) e atualmente cursando Sistemas para Internet na faculdade Uniesp. Trabalhei em uma loja virtual de variados produtos, sendo criado e gerenciado por mim mesmo. Também já fiz edição de vídeo e tráfego pago. Atualmente, estou no quarto período do curso e faço estágio na Abô cafeteria e botânica em João Pessoa, além disso, aprofundando conhecimentos em dados e nuvem.</p>
-        </div>
-        <div className="experience-time">
-
-        </div>
+        <Experience/>
         <div className="infos">
           <h3>Línguas</h3>
           <div className="languges-infos">
