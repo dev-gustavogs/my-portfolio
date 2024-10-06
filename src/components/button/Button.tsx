@@ -7,7 +7,7 @@ export function Button() {
   return (
     <div className="buttons">
       <SocialBtns />
-      <a href="" className="btn-primary">
+      <a href="mailto:gustavogomes.bsb68@gmail.com" className="btn-primary">
         Contato
         <EmailIcon />
       </a>

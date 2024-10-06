@@ -12,8 +12,8 @@ export function Information(){
         </div>
         <SectionTitle text="Educação"/>
         <div className="education-info">
-          <span>Sistemas para Internet - Presente</span> <br /><br />
-          <span>Análise e Desenvolvimento de Sitemas - 2023 - 2024</span>
+          <span>🎓Sistemas para Internet - Presente</span> <br /><br />
+          <span>🎓Análise e Desenvolvimento de Sitemas - 2023 - 2024</span>
         </div>
     </div>
   )

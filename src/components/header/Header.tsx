@@ -5,9 +5,10 @@ export function Header(){
   return(
     <div className="header">  
       <div>
-        <h1>Olá, Me chamo Gustavo!</h1>
+        <h1>Olá, eu sou Gustavo! 👋</h1>
         <h2>Estudante de Dados</h2>
       </div>
+      <div>
       <Image
         src="/Perfil.jpeg"
         alt="minha foto"
@@ -15,6 +16,8 @@ export function Header(){
         height={300}
         priority
       />
+      </div>
+      
     </div>
   )
 }
